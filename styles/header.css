@@ -43,3 +43,21 @@
     background-color: #2A7AE4;
     color: #F5F5F5;
 }
+
+@media only screen and (max-width: 420px) {
+    .header {
+        padding: 5% 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__input {
+        display: none;
+    }
+
+    .header__button {
+        width: 133px;
+    }
+
+}

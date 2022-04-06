@@ -33,3 +33,13 @@
     font-size: 18px;
     border-style: none;
 }
+
+@media only screen and (max-width: 420px) {
+    .main__input {
+        width: 275px;
+    }
+
+    .main__button {
+        width: 109px;
+    }
+}
