@@ -1,0 +1,52 @@
+.footer {
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    background-color: #EAF2FD;
+    height: 390px;
+    align-items: center;
+}
+
+.footer__links ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.footer__links ul li a {
+    text-decoration: none;
+    color: #464646;
+    font-size: 16px;
+}
+
+.footer__contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__input__name {
+    width: 560px;
+    height: 56px;
+    border: none;
+    padding: 0 20px;
+    outline: none;
+    margin: 20px 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer__textarea {
+    height: 82px;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    margin: 0 0 20px 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.footer__button {
+    width: 165px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+}

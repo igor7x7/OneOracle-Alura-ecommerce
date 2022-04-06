@@ -1,0 +1,35 @@
+.main {
+    padding: 0 10%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main__input {
+    width: 420px;
+    height: 60px;
+    border: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    font-size: 16px;
+    outline: none;
+    padding: 0 20px;
+}
+
+.main__button {
+    width: 420px;
+    height: 60px;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 18px;
+    border-style: none;
+}
