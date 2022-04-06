@@ -1,0 +1,40 @@
+.banner {
+    background-image: url("/assets/banner-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 352px;
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.banner__titulo {
+    font-size: 52px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner__descricao {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner__button {
+    width: 130px;
+    height: 51px;
+    background-color: #2A7AE4;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    transition: 300ms;
+}
+
+.banner__button:hover {
+    background-color: white;
+    color: #2A7AE4;
+}

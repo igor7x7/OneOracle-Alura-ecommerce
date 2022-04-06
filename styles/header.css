@@ -12,6 +12,11 @@
     align-items: center;
 }
 
+.header a {
+    text-decoration: none;
+    display: flex;
+}
+
 .header__logo {
     display: flex;
     padding: 2% 0;

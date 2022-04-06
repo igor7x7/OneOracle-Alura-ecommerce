@@ -1,0 +1,46 @@
+.produtos {
+    padding: 5% 10%;
+}
+
+.produtos__starwars__titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.produtos__starwars__titulo a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    font-size: 16px;
+    color: #2A7AE4;
+}
+
+.produtos__starwars__titulo p img {
+    margin: 0 0 0 10px;
+}
+
+.produtos__starwars__img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.produtos__starwars__img__nome {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.produtos__starwars__img__valor {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.produtos__starwars__img__link {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #2A7AE4;
+    margin-top: 5px;
+}
