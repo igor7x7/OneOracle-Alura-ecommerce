@@ -38,3 +38,9 @@
     background-color: white;
     color: #2A7AE4;
 }
+
+@media only screen and (max-width: 420px) {
+    .banner {
+        background-size: cover;
+    }
+}
